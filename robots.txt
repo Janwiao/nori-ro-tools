@@ -1,0 +1,9 @@
+# Nori Tools — rotools.nori-labs.com
+# 低調策略：允許被爬，但不主動推廣；排除佔位/未開放頁。
+
+User-agent: *
+Allow: /
+
+# 不需被收錄的頁
+Disallow: /donate.html        # 贊助暫無開放
+Disallow: /coming-soon.html   # 通用佔位頁
